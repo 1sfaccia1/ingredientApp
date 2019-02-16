@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #123579;
+  overflow: hidden;
+  padding: 5px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+a {
+  color: #000;
+  padding: 20px 10px;
+  font-size: 24px;
+}
+
+#nav-logo {
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: block;
+  float: left;
+}
+
+.mealSearch-container {
+  float: right;
+  display: block;
+}
+
+.mealSearch-container #mealSearch button {
+  height: 44px;
+  width: 110px;
+}
+
+input[type=text] {
+  height: 40px;
+  width: 400px;
+}
+
+.colum {
+  float: left;
+  width: 33.33%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#mealSearch {
+  margin-right: 20px;
+  height: 100%;
+  padding: 10px;
+}
+
+#greeting-container {
+  height: 100vh;
+}
+
+.container {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgba(5, 3, 56, 0.59);
+  border-radius: 5px;
+}
+
+#greeting {
+  height: 80%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 150px;
+}
+
+#greeting-logo {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+}
+
+#meal-container{
+  padding-top: 20px;
+  background-color: #17388e;
+}
+
+.card{
+  padding: 20px;
+}
+
+img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
